@@ -77,3 +77,7 @@ g++ -I$SYSTEMC_HOME/include -L$SYSTEMC_HOME/lib -lsystemc -std=c++11 \
 ```
 
 The consumer reads lag behind the producer because of the 2-cycle processing delay; the FIFO buffers up to 4 unread values before the producer blocks.
+
+Simulation output
+```![alt text](image.png)
+```
