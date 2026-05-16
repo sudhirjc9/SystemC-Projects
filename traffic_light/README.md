@@ -49,3 +49,9 @@ g++ -I$SYSTEMC_HOME/include -L$SYSTEMC_HOME/lib -lsystemc -o traffic_light main.
 ```
 
 Expected output shows state transitions at each clock edge with simulation timestamps.
+
+## EDA Playground Link
+```
+https://edaplayground.com/x/CzU2
+
+``` 

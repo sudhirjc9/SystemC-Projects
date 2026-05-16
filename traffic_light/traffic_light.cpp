@@ -15,11 +15,12 @@ SC_MODULE(traffic_light_controller){
     SC_CTOR(traffic_light_controller){
         SC_THREAD(run);
         sensitive <<clk.pos();
-        dont_initialize();
+        //dont_initialize();
 
         SC_METHOD(print);
         dont_initialize();
         sensitive<<ev;
+        sensitive <<clk.pos();
     }
 
      // Helper: drive all three outputs atomically
