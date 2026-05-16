@@ -102,4 +102,4 @@ g++ -I$SYSTEMC_HOME/include -L$SYSTEMC_HOME/lib -lsystemc -std=c++11 \
 
 ## Simulation Output
 
-![Simulation output](image.png)
+![Simulation output](!(image.png))
